@@ -1,0 +1,709 @@
+
+@font-face {
+    font-family: "AlfaSlabOne Regular";
+    src: url("/assets/css/fonts/AlfaSlabOne-Regular.ttf");
+}
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("/assets/css/fonts/BebasNeue-Regular.ttf");
+}
+
+
+.alfa{
+   font-family: 'AlfaSlabOne Regular', serif;
+   color: #3d2514;
+
+}
+
+.bebas{
+    font-family: 'BebasNeue-Regular', serif;
+    color: #3d2514;
+    
+}
+
+.bebas-blc{
+    font-family: 'BebasNeue-Regular', serif;
+    color: #fff;
+    
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+
+.montserrat-blc{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.montserrat-bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #3d2514;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/*  ####################### HEADER ############################################ */
+header{
+    padding: 70px;
+    background-image: url('../img/fond.jpg');
+
+    height:1100px;
+    width: 100%;
+ }
+
+
+.logo-burger{
+    width: 400px;
+}
+
+/*EXPRESS */
+
+.express{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.express p{
+    vertical-align: middle;
+    height: 40px;
+    padding-top: 15px;   
+    font-size: 18px;
+}
+.express img{
+    width: 65px;
+    height: 40px;
+    padding-right: 15px;
+}
+
+/*NAV */
+
+.menu{
+    justify-content: end;
+    
+}
+
+
+.menu nav{
+   
+    font-size: 24px;
+    
+}
+
+.navbar-nav > li{
+    padding-left:50px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    
+  }
+
+
+  /*TITRE GAUCHE */
+header h1{
+    text-shadow: 2px 2px #fff;
+    font-size: 130px;
+
+ } 
+
+header h3{
+    text-shadow: 2px 2px #fff;
+    font-size: 80px;
+ } 
+
+.header-gauche{
+    margin-top: 250px;
+}
+.header-gauche p{
+    font-size: 26px;
+    border: 2px dashed #3d2514;
+    width: 440px;
+    padding: 8px 12px;
+}
+
+/* IMAGE DROIT */
+.header-droit img{ 
+    width: 100%;
+    margin-bottom: 500px;
+}
+
+/*  ####################### SECTION SECTION 1 ############################################ */
+
+.section1{
+    height: 600px;
+    padding: 20px;
+    display: flex;
+}
+
+.section1 .card{
+    margin: 0;
+    padding: 10px;
+    justify-content: top;
+    height: 50%;
+    border-style: none;
+}
+
+.section1 .card .card-text{
+    font-size: 60px;
+    color: #fff;
+}
+
+.section1 .card .card-title{
+    font-size: 30px;
+    color: #fff;
+}
+
+.section1gauche img{
+    height:510px;
+    width: 100%;
+}
+
+.section1droit img{
+    height:245px;
+    width: 100%;
+}
+
+    /*  ####################### SECTION SECTION 2 ############################################ */
+.section2{
+    text-align: center;
+    padding: 10px;
+}
+
+.always{
+  background:#ffc045;  
+  width: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 1px;
+}
+
+.choose{
+margin: 30px;
+font-size: 150px;
+}
+
+.choose h2{
+    margin: 30px;
+    font-size: 50px;
+    }
+
+.lorem p{
+    font-size: 20px;
+}
+
+    /*  ####################### SECTION SECTION 3 ############################################ */
+
+    .section3{
+   border-left-style: none;
+   
+   height: 880px;
+   width: 100%;
+   font-size: 10px;
+}
+
+.section3 .col .card{
+    border-style: none;
+    height: 350px;
+    width: 100%;    
+    text-align: center;
+
+}
+
+.section3 .col .card p{
+        font-size: 14px;  
+}
+
+.section3 .col .card button{
+width: 300px;
+color: #fff;
+text-transform: uppercase;
+}
+
+    /*  ####################### SECTION SECTION 4 ############################################ */
+
+.section4{
+    height: 600px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: ;
+}
+
+
+
+  
+  .carousel-indicators li {
+    border-radius: 49%;
+    width: 3px;
+    height: 3px;
+    padding: 4px;
+    position: relative;
+    margin: 0 15px;
+    background-color: transparent;
+    opacity: 1;
+  }
+  
+  .carousel-indicators li:after {
+    border-radius: 49%;
+    padding: 10px;
+    border: 4px solid #ffc045;;
+    background: #ffc045;
+    height: 2px;
+    content: "";
+  
+  }
+  
+  .carousel-indicators li.active {
+    background-color:transparent;
+  }
+  .carousel-indicators [data-bs-target]{
+    text-indent: -899px;
+    background: transparent;
+  }
+   /*  ####################### SECTION SECTION 5 ############################################ */
+
+
+.section5{
+    height: 600px;
+}
+
+.section5 h2{
+    text-transform: uppercase;
+}
+
+
+.form-control{
+margin: 20px;
+height: 50px;
+
+}
+
+input[name="submit"]{
+    background: red;
+    color: #fff;
+}
+
+.section5 .burger img{
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+    margin-left: -330px;
+}
+
+.section5 .assiette img{
+    height: 390px;
+    width: 350px;
+    
+    margin-left: 220px;
+    
+}
+.section5 .bouteille img{
+    height: 200px;
+    width:50px;
+    z-index: 2;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.section5 .phone{
+    display: none;
+}
+
+/* ########################  FOOTER  ######################################*/
+
+footer{
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 490px;
+    color: #fff;
+}
+
+
+footer p{
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-haut{
+    height: 430px;
+   
+    padding: 110px 30px 30px 30px ;
+    
+}
+
+
+.col .localisation{
+display: flex;
+    padding: 10px;
+    font-size: 30px;
+
+    
+    
+}
+.localisation p{
+    vertical-align: middle;
+    height: 20px;      
+    font-size: 25px;
+}
+.localisation i{
+    width: 65px;
+    height: 40px;
+    padding-right: 15px;
+}
+.footer-bas{
+    justify-content: space-between;
+    vertical-align: bottom;
+    height: 60px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.footer-bas ul{
+    list-style: none;
+    display: inline;
+}
+
+.footer-bas ul li{
+    list-style: none;
+    display: inline;
+}
+
+.footer-bas ul li i{
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+    margin: 5px;
+}
+.footer-bas p{
+    font-size: 20px;
+    padding: 8px;
+}
+
+
+
+
+/* #################################  MEDIA ######################################*/
+@media (max-width:400px){
+
+    
+/*  ####################### HEADER ############################################ */
+    header{
+        padding: 10px;
+        background-image: url('../img/fond.jpg');
+        height:780px;
+        width: 100%;
+     }
+
+     .header-gauche{
+        margin-top: 20px;
+    }
+
+    .express{
+        padding: 15px;
+    }
+
+    .express p{
+        vertical-align: middle;
+        height: 40px;
+        padding-top: 15px;   
+        font-size: 14px;
+    }
+    .express img{
+        width: 60px;
+        height:40px;       
+    }
+
+    .header-gauche p{
+        font-size: 16px;
+        border: 2px dashed #3d2514;
+        width: 100%;
+        padding: 8px 8px 8px 8px;
+        text-align:center;
+    }
+
+     header h1{
+        text-shadow: 2px 2px #fff;
+        font-size: 60px;    
+     } 
+    
+    header h3{
+        text-shadow: 2px 2px #fff;
+        font-size: 40px;
+     } 
+
+
+/*  ####################### SECTION SECTION 1 ############################################ */
+
+     #section1{
+        height: 520px;
+        padding: 5px;
+        display: block;    
+    }
+    
+    .section1 .row{
+        display: block;
+    }
+    
+    
+    .section1 .card{
+        margin-top: 10px;
+        padding: 00px;
+        justify-content: top;        
+        border-style: none;
+    }
+    
+    .section1 .card .card-text{
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .section1 .card .card-title{
+        font-size: 10px;
+        color: #fff;
+    }
+
+    .section1gauche img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .section1droit img{       
+        height: auto;
+        width: 100%;
+    }
+
+    /*  ####################### SECTION SECTION 2 ############################################ */
+
+    .choose h2{
+        margin: 10px;
+        font-size: 30px;
+     }
+    .lorem p{
+        font-size: 16px;
+    }
+
+    /*  ####################### SECTION SECTION 3 ############################################ */
+
+    .section3{
+        border-left-style: none;        
+        height:1100px;
+        width: 100%;
+        font-size: 10px;
+        justify-content: center;
+    }
+     
+    .section3 .col .card{
+         border-style: none;
+         height: 350px;
+         width: 100%;    
+         text-align: center;      
+    }
+
+    .section3 .col .card img{
+        height: 200px;
+        width: 200px;   
+        margin-left: auto;
+        margin-right: auto;     
+    }
+     
+    .section3 .col .card button{
+     width: 200px;
+     color: #fff;
+     text-transform: uppercase;    
+    }
+     
+
+    /*  ####################### SECTION SECTION 4 ############################################ */
+   
+    .section4{
+        height: 330px;
+        margin: 10px;
+        padding: 20px;
+    }
+   
+    .carousel-indicators li {
+        border-radius: 49%;
+        width: 3px;
+        height: 3px;
+        padding: 4px;
+        position: relative;
+        margin: 0 15px;
+        background-color: transparent;
+        opacity: 1;
+      }
+      
+      .carousel-indicators li:after {
+        border-radius: 49%;
+        padding: 10px;
+        border: 4px solid #ffc045;;
+        background: #ffc045;
+        height: 2px;
+        content: "";
+      
+      }
+      
+      .carousel-indicators li.active {
+        background-color:#ffc045;
+      }
+      .carousel-indicators [data-bs-target]{
+ 
+        background: #ffc045;
+      }
+
+
+
+    /*  ####################### SECTION SECTION 5 ############################################ */
+
+.section5{
+    height: 900px ;
+}
+
+
+    .section5 .assiette img{
+        display: none;
+        height: 390px;
+        width: 350px;
+        
+        margin-left: 220px;
+        
+    }
+    .section5 .bouteille img{
+        display: none;
+        height: 200px;
+        width:50px;
+
+        margin-left: 400px;
+        margin-top: 20px;
+    }
+
+    .section5 .phone{
+        display: block;
+        justify-content: center;
+
+        
+
+    }
+    .section5 .phone .burger{
+        height: 110px;
+        width: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 15px;
+        
+    }
+    .section5 .phone .bouteille{
+        height: 110px;
+        width: 30px;
+        margin: 15px;
+        
+    }
+    .section5 .phone .assiette {
+        height: 110px;
+        width: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 15px;
+        
+    }
+
+
+
+/*  ####################### FOOTER ############################################ */
+
+footer{
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    color: #fff;
+    
+}
+
+
+footer p{
+    color: #fff;
+    padding: 20px;
+}
+    
+
+footer .logo-burger{
+    height: 80px;
+    width: 400px;
+}
+
+
+.footer-haut{
+
+display: block;
+height: 650px;
+    
+}
+
+
+
+.col .localisation{
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+}
+.localisation p{
+    vertical-align: middle;
+    height: 20px;      
+    font-size: 25px;
+}
+.localisation i{
+    width: 65px;
+    height: 40px;
+    padding-right: 15px;
+}
+.footer-bas{
+    justify-content: space-between;
+    vertical-align: bottom;
+    height: 60px;
+    padding: 20px;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+.footer-bas .col{
+    text-align: center;
+}
+
+.footer-bas ul{
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+.footer-bas ul li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.footer-bas ul li i{
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+.footer-bas p{
+    font-size: 20px;
+    padding: 8px;
+}
+
+}

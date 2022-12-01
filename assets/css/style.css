@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "AlfaSlabOne Regular";
+    src: url("/assets/css/fonts/AlfaSlabOne-Regular.ttf");
+}
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("/assets/css/fonts/BebasNeue-Regular.ttf");
+}
+
+
+.alfa{
+   font-family: 'AlfaSlabOne Regular', serif;
+   color: #3d2514;
+}
+
+.bebas{
+    font-family: 'BebasNeue-Regular', serif;
+    color: #3d2514;
+    
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+
+.montserrat-bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #3d2514;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background: red;
+}
+
+.section1{
+    height: 500px;
+    width: 100%;
+    background: green;
+}
+
+.section2{
+    height: 500px;
+    width: 100%;
+    background: blue;
+}
+
+.section3{
+    height: 500px;
+    width: 100%;
+    background: yellow;
+}
+.section4{
+    height: 500px;
+    width: 100%;
+    background: gray;
+}
+.section5{
+    height: 500px;
+    width: 100%;
+    background: brown;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    background: black;
+}
+
+.section1 .row{
+    display: flex;
+}
+
+
+.card{
+    padding:20px
+}
